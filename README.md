@@ -14,4 +14,4 @@ Contributions via GitHub pull requests are gladly accepted from their original a
 License This code is open source software licensed under the Apache 2.0 License.
 
 
-![alt text](/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg)
+![alt text](https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg)
