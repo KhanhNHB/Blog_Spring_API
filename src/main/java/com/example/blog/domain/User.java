@@ -1,8 +1,9 @@
-package com.example.blog.model;
+package com.example.blog.domain;
 
-public class SignIn {
+public class User {
     private String id;
     private String password;
+    private int max_todo;
 
     public String getId() {
         return id;
@@ -18,5 +19,13 @@ public class SignIn {
 
     public void setPassword(String password) {
         this.password = password;
+    }
+
+    public int getMax_todo() {
+        return max_todo;
+    }
+
+    public void setMax_todo(int max_todo) {
+        this.max_todo = max_todo;
     }
 }
