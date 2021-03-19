@@ -6,12 +6,8 @@ This is blog post RESTful API application. Using Spring Boot Framework.
 
 Setup and Installation:
 Clone the repository from Github:
-
-git clone https://github.com/KhanhNHB/Blog_Spring_API.
-cd blog.
-Start PostgresSQL database instance.
-
-docker-compose up to start postgres container. run project
+git clone https://github.com/KhanhNHB/Blog_Spring_API:
+cd blog
 
 You need the following installed for running the example:
 You can use either of the below 2 options:
@@ -21,6 +17,7 @@ another option is by running a postgres docker container:
 docker container run --name postgresdb -e POSTGRES_PASSWORD=admin -d -p 5432:5432 postgres
 Create database objects
   + if using docker (else skip this step), first copy this file to the running container using below command and then exec into the running container:
+docker-compose up
 docker container cp expensetracker_db.sql postgresdb:/
 docker container exec -it postgresdb bash
 run the script using psql client:
@@ -37,15 +34,5 @@ Run the spring boot application
 
 ./mvnw spring-boot:run
 this runs at port 5050 and hence all enpoints can be accessed starting from http://localhost:5050
-
-
-
-
-
-
-
-
-
-
 
 ![alt text](https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg)
