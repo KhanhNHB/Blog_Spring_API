@@ -7,8 +7,8 @@ This is blog post RESTful API application. Using Spring Boot Framework.
 Setup and Installation:
 Clone the repository from Github:
 
-git clone https://github.com/KhanhNHB/Blog_Spring_API 
-cd blog 
+git clone https://github.com/KhanhNHB/Blog_Spring_API \n
+cd blog \n
 Start PostgresSQL database instance
 
 docker-compose up to start postgres container. run project
